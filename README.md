@@ -1,2 +1,2 @@
 # MonitoringFinalProject
-This is my final project to get my degree on telkom university
+This is my final project to get my degree on Telkom University
