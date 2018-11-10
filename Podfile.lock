@@ -1,0 +1,16 @@
+PODS:
+  - ReactiveKit (3.9.7)
+
+DEPENDENCIES:
+  - ReactiveKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReactiveKit
+
+SPEC CHECKSUMS:
+  ReactiveKit: 5f4c440715d671901c382ae6b42ed3337ce4699b
+
+PODFILE CHECKSUM: 8fb5d9e2e63183735ee0c1412ec074dd37f5ca90
+
+COCOAPODS: 1.5.3

@@ -19,9 +19,13 @@ class ViewController: UIViewController {
    self.byeView.isHidden = false
    self.byeView.alpha = 1.0
   }, completion: { finished in
-//    print("Exit")
    exit(0)
   })
+ }
+ @IBAction func logView(_ sender: UIButton) {
+  let log = self.storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+  
+  self.navigationController?.pushViewController(log, animated: true)
  }
  
  override func viewDidLoad() {
@@ -32,12 +36,14 @@ class ViewController: UIViewController {
  override func viewWillAppear(_ animated: Bool) {
   super.viewWillAppear(animated)
   
-  self.byeView.alpha = 0
   self.byeView.isHidden = true
   
-  
   self.logButton.layer.cornerRadius = 26
+  self.logButton.layer.borderWidth = 1
+  self.logButton.layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
   self.signButton.layer.cornerRadius = 26
+  self.signButton.layer.borderWidth = 1
+  self.signButton.layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
  }
 
 

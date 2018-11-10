@@ -1,0 +1,6 @@
+framework module Pods_Monitoring_Cage {
+  umbrella header "Pods-Monitoring Cage-umbrella.h"
+
+  export *
+  module * { export * }
+}

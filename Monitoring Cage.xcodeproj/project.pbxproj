@@ -12,9 +12,13 @@
 		3D1D1EDC2194B0E30059905D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D1EDA2194B0E30059905D /* Main.storyboard */; };
 		3D1D1EDE2194B0F10059905D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D1EDD2194B0F10059905D /* Assets.xcassets */; };
 		3D1D1EE12194B0F10059905D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D1EDF2194B0F10059905D /* LaunchScreen.storyboard */; };
+		3D7DBD352196C7E100F6075B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DBD342196C7E100F6075B /* LoginViewController.swift */; };
+		3D7DBD372196C98800F6075B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DBD362196C98800F6075B /* CreateViewController.swift */; };
+		F1CC096AC2B08219587B4543 /* Pods_Monitoring_Cage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACA63346AFC33699FE90568 /* Pods_Monitoring_Cage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		209516119C66513F32BA1D2D /* Pods-Monitoring Cage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitoring Cage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Monitoring Cage/Pods-Monitoring Cage.debug.xcconfig"; sourceTree = "<group>"; };
 		3D1D1ED32194B0E30059905D /* Monitoring Cage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monitoring Cage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1D1ED62194B0E30059905D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D1D1ED82194B0E30059905D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,11 @@
 		3D1D1EDD2194B0F10059905D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1D1EE02194B0F10059905D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1D1EE22194B0F10059905D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7DBD332196C27000F6075B /* Monitoring Cage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Monitoring Cage.entitlements"; sourceTree = "<group>"; };
+		3D7DBD342196C7E100F6075B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D7DBD362196C98800F6075B /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		8AC5B95B755AC4DAF22066D2 /* Pods-Monitoring Cage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitoring Cage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Monitoring Cage/Pods-Monitoring Cage.release.xcconfig"; sourceTree = "<group>"; };
+		8ACA63346AFC33699FE90568 /* Pods_Monitoring_Cage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monitoring_Cage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CC096AC2B08219587B4543 /* Pods_Monitoring_Cage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +50,8 @@
 			children = (
 				3D1D1ED52194B0E30059905D /* Monitoring Cage */,
 				3D1D1ED42194B0E30059905D /* Products */,
+				457CBE995FFAFCEC68FD7526 /* Pods */,
+				60788A518E727E550BFBBAAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +66,34 @@
 		3D1D1ED52194B0E30059905D /* Monitoring Cage */ = {
 			isa = PBXGroup;
 			children = (
+				3D7DBD332196C27000F6075B /* Monitoring Cage.entitlements */,
 				3D1D1ED62194B0E30059905D /* AppDelegate.swift */,
 				3D1D1ED82194B0E30059905D /* ViewController.swift */,
 				3D1D1EDA2194B0E30059905D /* Main.storyboard */,
 				3D1D1EDD2194B0F10059905D /* Assets.xcassets */,
 				3D1D1EDF2194B0F10059905D /* LaunchScreen.storyboard */,
 				3D1D1EE22194B0F10059905D /* Info.plist */,
+				3D7DBD342196C7E100F6075B /* LoginViewController.swift */,
+				3D7DBD362196C98800F6075B /* CreateViewController.swift */,
 			);
 			path = "Monitoring Cage";
+			sourceTree = "<group>";
+		};
+		457CBE995FFAFCEC68FD7526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				209516119C66513F32BA1D2D /* Pods-Monitoring Cage.debug.xcconfig */,
+				8AC5B95B755AC4DAF22066D2 /* Pods-Monitoring Cage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60788A518E727E550BFBBAAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ACA63346AFC33699FE90568 /* Pods_Monitoring_Cage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D1D1EE52194B0F10059905D /* Build configuration list for PBXNativeTarget "Monitoring Cage" */;
 			buildPhases = (
+				5845C3B01C0FC9D4D88163F4 /* [CP] Check Pods Manifest.lock */,
 				3D1D1ECF2194B0E30059905D /* Sources */,
 				3D1D1ED02194B0E30059905D /* Frameworks */,
 				3D1D1ED12194B0E30059905D /* Resources */,
+				1A9405E5946D7F2A81D076D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +130,14 @@
 				TargetAttributes = {
 					3D1D1ED22194B0E30059905D = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,11 +172,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A9405E5946D7F2A81D076D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Monitoring Cage/Pods-Monitoring Cage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveKit/ReactiveKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monitoring Cage/Pods-Monitoring Cage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5845C3B01C0FC9D4D88163F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Monitoring Cage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D1D1ECF2194B0E30059905D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7DBD372196C98800F6075B /* CreateViewController.swift in Sources */,
+				3D7DBD352196C7E100F6075B /* LoginViewController.swift in Sources */,
 				3D1D1ED92194B0E30059905D /* ViewController.swift in Sources */,
 				3D1D1ED72194B0E30059905D /* AppDelegate.swift in Sources */,
 			);
@@ -280,8 +371,10 @@
 		};
 		3D1D1EE62194B0F10059905D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209516119C66513F32BA1D2D /* Pods-Monitoring Cage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Monitoring Cage/Monitoring Cage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDPQ7LU682;
 				INFOPLIST_FILE = "Monitoring Cage/Info.plist";
@@ -298,8 +391,10 @@
 		};
 		3D1D1EE72194B0F10059905D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC5B95B755AC4DAF22066D2 /* Pods-Monitoring Cage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Monitoring Cage/Monitoring Cage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDPQ7LU682;
 				INFOPLIST_FILE = "Monitoring Cage/Info.plist";
