@@ -28,6 +28,7 @@ class LoginViewController: UIViewController {
   self.passText.layer.borderWidth = 1
   self.passText.layer.borderColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
   
+//  Create Underline
   let border = CALayer()
   let width = CGFloat(2.0)
   border.borderColor = UIColor.darkGray.cgColor
@@ -36,7 +37,9 @@ class LoginViewController: UIViewController {
   border.borderWidth = width
   self.emailText.layer.addSublayer(border)
   self.emailText.layer.masksToBounds = true
+//  End Create Underline
   
+//  Create Underline
   let border1 = CALayer()
   let width1 = CGFloat(2.0)
   border1.borderColor = UIColor.darkGray.cgColor
@@ -45,11 +48,14 @@ class LoginViewController: UIViewController {
   border1.borderWidth = width1
   self.passText.layer.addSublayer(border1)
   self.passText.layer.masksToBounds = true
+//  End Create Underline
   
+//  Create Round Button
   self.logButton.layer.cornerRadius = 26
   self.cancelButton.layer.borderColor = #colorLiteral(red: 0.1797923744, green: 0.2885507345, blue: 0.3593635559, alpha: 1)
   self.cancelButton.layer.borderWidth = 1
   self.cancelButton.layer.cornerRadius = 26
+//  End Create Round Button
   
  }
  @IBAction func cancelTap(_ sender: UIButton) {

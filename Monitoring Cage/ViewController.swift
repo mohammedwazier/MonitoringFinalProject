@@ -27,6 +27,11 @@ class ViewController: UIViewController {
   
   self.navigationController?.pushViewController(log, animated: true)
  }
+ @IBAction func createView(_ sender: UIButton) {
+  let cret = self.storyboard?.instantiateViewController(withIdentifier: "CreateViewController") as! CreateViewController
+  
+  self.navigationController?.pushViewController(cret, animated: true)
+ }
  
  override func viewDidLoad() {
   super.viewDidLoad()

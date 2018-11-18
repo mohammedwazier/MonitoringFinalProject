@@ -14,6 +14,7 @@
 		3D1D1EE12194B0F10059905D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D1EDF2194B0F10059905D /* LaunchScreen.storyboard */; };
 		3D7DBD352196C7E100F6075B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DBD342196C7E100F6075B /* LoginViewController.swift */; };
 		3D7DBD372196C98800F6075B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DBD362196C98800F6075B /* CreateViewController.swift */; };
+		3DE96D0121A18C0C00C6CDDA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE96D0021A18C0C00C6CDDA /* MainViewController.swift */; };
 		F1CC096AC2B08219587B4543 /* Pods_Monitoring_Cage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACA63346AFC33699FE90568 /* Pods_Monitoring_Cage.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3D7DBD332196C27000F6075B /* Monitoring Cage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Monitoring Cage.entitlements"; sourceTree = "<group>"; };
 		3D7DBD342196C7E100F6075B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D7DBD362196C98800F6075B /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		3DE96D0021A18C0C00C6CDDA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8AC5B95B755AC4DAF22066D2 /* Pods-Monitoring Cage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitoring Cage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Monitoring Cage/Pods-Monitoring Cage.release.xcconfig"; sourceTree = "<group>"; };
 		8ACA63346AFC33699FE90568 /* Pods_Monitoring_Cage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monitoring_Cage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 				3D1D1EE22194B0F10059905D /* Info.plist */,
 				3D7DBD342196C7E100F6075B /* LoginViewController.swift */,
 				3D7DBD362196C98800F6075B /* CreateViewController.swift */,
+				3DE96D0021A18C0C00C6CDDA /* MainViewController.swift */,
 			);
 			path = "Monitoring Cage";
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				3D7DBD352196C7E100F6075B /* LoginViewController.swift in Sources */,
 				3D1D1ED92194B0E30059905D /* ViewController.swift in Sources */,
 				3D1D1ED72194B0E30059905D /* AppDelegate.swift in Sources */,
+				3DE96D0121A18C0C00C6CDDA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
