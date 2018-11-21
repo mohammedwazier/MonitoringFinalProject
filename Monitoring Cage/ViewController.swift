@@ -41,6 +41,10 @@ class ViewController: UIViewController {
  override func viewWillAppear(_ animated: Bool) {
   super.viewWillAppear(animated)
   
+  let mainMenu = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+  
+  self.navigationController?.pushViewController(mainMenu, animated: true)
+  
   self.byeView.isHidden = true
   
   self.logButton.layer.cornerRadius = 26
